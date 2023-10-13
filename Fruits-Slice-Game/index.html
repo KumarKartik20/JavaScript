@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0 user-scalable=yes">
+    <title>Fruit Slice Game!</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="display-1"  id="container">
+        <div  id="score">
+            SCORE: <span id="score_val">0</span>
+        </div>
+        <div id="correct">
+            Correct!!
+        </div>
+        <div id="wrong">
+            Oops,try again..
+        </div>
+        <div id="fruit_cont">
+            <img src="" class="fruit" id="fruit1">
+        </div>
+        <div id="instructions">
+            
+        </div>
+        <div id="start_reset">
+            START
+        </div>
+        <div id="lives">
+            
+        </div>
+        <div id="game_over">
+            GAME OVER!!
+            <p>YOUR SCORE IS: </p>
+        </div>
+    </div>
+    <audio id="slice_sound" src="audio/slice.mp3"></audio>
+    <audio src="audio/slice.ogg"></audio>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+    <script src="app.js"></script>
+    
+</body>
+</html>

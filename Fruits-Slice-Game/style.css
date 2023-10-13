@@ -1,0 +1,124 @@
+html{
+    height: 100%;
+    background: #f5b6ac;
+}
+
+#container{
+    width: 900px;
+    height: 600px;
+    background: rgb(240, 52, 124);
+    margin: 5px auto;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 5px 5px 10px 0px rgb(243, 89, 148);
+    position: relative;
+}
+#score{
+    background-color: #ffd100;
+    
+    border-radius: 7px;
+    padding: 7px;
+    position: absolute;
+    left: 795px;
+    box-shadow: 4px 4px 6px 0px #693D16;
+}
+#correct{
+    position: absolute;
+    background-color: green;
+    color: white;
+    left: 350px;
+    padding: 7px;
+    display: none;
+}
+#wrong{
+    position: absolute;
+    background-color: red;
+    color: white;
+    left: 350px;
+    padding: 7px;
+    display: none; 
+}
+#fruit_cont{
+    position: relative;
+    background-color: white ;
+    width: 800px;
+    height: 380px;
+    border-radius: 7px;
+    margin: 50px auto 10px auto;
+    padding: 7px;
+    font-size: 100px;
+    text-align: center;
+    line-height: 170px;
+    box-shadow: 3px 3px 6px 0px rgb(243, 161, 243);
+    overflow: hidden;
+}
+#instructions{
+    background-color: rgb(107, 7, 45);
+    color: wheat ;
+    width: 500px;
+    height: 70px;
+    border-radius: 7px;
+    margin: 12px auto;
+    padding: 7px;
+    font-size: 25px;
+    line-height: 70px;
+    text-align: center;
+    box-shadow: 3px 3px 6px 0px rgb(206, 161, 206);
+    
+}
+#start_reset{
+    width: 100px;
+    height: 40px;
+    padding: 5px;
+    line-height: 40px;
+    background-color: #ffd100 ;
+    
+    margin-right: 32px;
+    border-radius: 5px;
+    margin: 10px auto;
+    cursor: pointer;
+    box-shadow: 4px 4px 4px 0px #693D16;
+    text-align: center;
+    font-size: 20px;
+}
+
+#lives{
+    width: 150px;
+    height: 35px;
+    line-height: 35px;
+    text-align: center;
+    top: 20px;
+    background-color: #ffd100;
+    
+    border-radius: 5px;
+    position: absolute;
+    left: 65px;
+    box-shadow: 4px 4px 4px 0px #693D16;   
+    display: none;
+}
+
+#game_over{
+    width: 500px;
+    height: 250px;
+    background-color: tomato;
+    position: absolute;
+    top: 135px;
+    left: 220px;
+    border-radius: 20px;
+    color: white;
+    font-size: 2em;
+    text-align: center;
+    line-height: 110px;
+    display: none; 
+}
+
+.life{
+    height: 25px;
+    width: 25px;
+    margin: 5px 5px;
+}
+
+.fruit{
+    display: none;
+    position: absolute;
+}
